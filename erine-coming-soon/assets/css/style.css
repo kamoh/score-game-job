@@ -5,6 +5,16 @@ body {
     font-weight: 300;
     color: #fff;
     text-align: center;
+    font-size: 18px;
+}
+
+#genres h4 {
+  margin-top: 30px;
+  font-style: italic;
+}
+
+#genres p {
+  margin-top: 30px;
 }
 
 strong { font-weight: 700; }
