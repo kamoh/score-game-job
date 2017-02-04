@@ -1,159 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
+    <meta charset="utf-8">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ben Serviss is a software engineer developing in Ruby, Rails, JavaScript and other web technologies." />
+    <meta name="keywords" content="ruby, rails, javascript, web developer, software, engineer, game design" />
+    <meta property="og:image" content="http://www.benserviss.com/images/avatars/ben.jpg">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Want to get into games? Learn how I broke into the game industry and how you could do it yourself." />
-        <title>Break Into the Game Industry</title>
+    <title>Ben Serviss - Software Engineer</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
+    <!-- Bootstrap Core CSS & External Libraries -->
+    <link href="stylesheets/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/vendor/font-awesome.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-		<link rel="stylesheet" href="assets/css/form-elements.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700%7CMerriweather:400,300' rel='stylesheet' type='text/css'>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <!-- Begin Google Analytics -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-6557162-1");
+        pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+    <!-- End Google Analytics -->
+</head>
 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+<body id="index" data-spy="scroll" data-target="#main-navigation">
 
-    </head>
+    <nav class="navbar navbar-default navbar-white navbar-fixed-top top-nav-fat" role="navigation" id="main-navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#index">Ben Serviss [Software Engineer]</a>
+        </div>
 
-    <body>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="main-navigation-collapse">
+            <ul class="nav navbar-nav navbar-right">
 
-        <!-- Coming Soon -->
-        <div class="coming-soon">
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1 class="fadeInLeftBig">How to Break Into the Game Industry</h1>
-                            <h3 class="fadeInLeftBig"><i>(And What to Expect When You Get There)</i></h3>
-                            <div class="fadeInLeftBig">
-                            	<p>
-                                Have you been dreaming of making video games for a living?
-                                <br>
-                                I can tell you how to turn your dreams into reality.
-                              </p>
-                              <p>
-                                <h3>
-                                  Who Am I?
-                                </h3>
-                              </p>
-                              <p>
-                                <div>
-                                My name is <a href="https://www.linkedin.com/in/benserviss" target="_blank">Ben Serviss</a>. I've worked on 22 game projects for 13 game companies, across every side of the industry.
-                                </div>
-                                <div id="genres">
-                                  <h4>
-                                  Console/AAA - Online - F2P - Educational - Indie - Facebook/Social
-                                  <br>
-                                  Military Training Simulations - Enterprise Training Applications - Interactive Fiction - Point & Click
-                                  </h4>
-                                <p>
-                                I've broken into each of these sections of the industry, and I've also been the one hiring.
-                                <br>
-                                I know what works because I've lived it.
-                                </p>
-                                </div>
-                              </p>
-                              <p>
-                            		<strong>Want to hear more?</strong>
-                                Full-length ebook coming soon.
-                            	</p>
-                              <p>
-                                Sign up and be the first to know when it's out.
-                              </p>
-                            </div>
-                            <!-- <div class="subscribe wow fadeInUp">
-    			                    <form class="form-inline" action="" method="post">
-    			                        <input type="text" name="email" placeholder="Enter your email..." class="subscribe-email">
-    			                        <p>
-                                    <button type="submit" class="btn">I Want To Make Games!</button>
-                                    </p>
-    			                    </form>
-    			                    <div class="success-message"></div>
-    			                    <div class="error-message"></div>
-    			                  </div> -->
+                <li>
+                    <a  href="#gallery">
+                        <span><i class="fa fa-home"></i></span>
+                    </a>
+                </li>
 
-                            <!-- Begin MailChimp Signup Form -->
-                            <div class="subscribe wow fadeInUp">
-                                <!-- <div id="mc_embed_signup"> -->
-                                <form action="//benserviss.us2.list-manage.com/subscribe/post?u=875d06b82069b8515cbb48bea&amp;id=16c62ef9cc" method="post"  name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
-                                    <!-- <div id="mc_embed_signup_scroll"> -->
+                <li>
+                    <a  href="#about">
+                        <span>About</span>
+                    </a>
+                </li>
 
-                                <!-- <div> -->
-                                  <!-- <label for="mce-EMAIL">Email Address </label> -->
-                                  <input type="text" value="" name="EMAIL" class="subscribe-email"  placeholder="Enter your email...">
-                                <!-- </div> -->
-                                  <div id="mce-responses" class="clear">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_875d06b82069b8515cbb48bea_16c62ef9cc" tabindex="-1" value=""></div>
-                                    <div class="clear">
-                                      <!-- <input type="submit" value="I Want To Make Games!" name="subscribe" id="mc-embedded-subscribe" class="button"> -->
-                                      <p>
-                                      <button type="submit" class="btn">I Want To Make Games!</button>
-                                      </p>
-                                    </div>
-                                    <!-- </div> -->
-                                </form>
-                                <!-- </div> -->
-                            </div>
+                <li>
+                    <a  href="#testimonials">
+                        <span>Testimonials</span>
+                    </a>
+                </li>
 
-                            <!--End mc_embed_signup-->
-                        </div>
-                    </div>
+                <li>
+                    <a  href="#contact">
+                        <span>Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div id="content" class="padded">
+
+    <section id="gallery" class="screen">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center section-header">
+                    <h2>Projects</h2>
+                </div> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="text-centered">
+                    <ul id="filterable-nav" class="nav filter-nav">
+                        <li><a href="#" class="active" data-filter="*">All</a>
+                        </li>
+                        <li><a href="#" data-filter=".web">Web</a>
+                        </li>
+                        <li><a href="#" data-filter=".other">Games</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Footer -->
-        <footer>
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-7 footer-copyright">
-	                    <!-- <p>&copy; Erine Bootstrap Template by <a href="http://azmind.com">Azmind</a> -->
-                        <p>© <a href="http://www.benserviss.com" target="_blank">Ben Serviss</a></p>
-	                </div>
-	                <!-- <div class="col-sm-5 footer-social">
-	                	<a class="social-icon twitter" href="#" target="_blank"></a>
-	                	<a class="social-icon dribbble" href="#" target="_blank"></a>
-	                	<a class="social-icon facebook" href="#" target="_blank"></a>
-	                	<a class="social-icon google-plus" href="#" target="_blank"></a>
-	                </div> -->
-	            </div>
-	        </div>
-        </footer>
+        <div id="filterable-list" class="row">
+            <div class="filter-item-fourth web">
+
+                <a href="http://www.world-view.today" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/worldview.png">
+                    <div class="portfolio-text">
+                        <h5>worldview</h5>
+                        <p>Get instant snapshots of (almost) any city in the world</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main"></i>
+                        <h5>Click to Visit <br><br>world-view.today</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth web">
+
+                <a href="http://www.spamencoder.com" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/spam-encoder.png">
+                    <div class="portfolio-text">
+                        <h5>SpamEncoder</h5>
+                        <p>Send secret messages hidden inside what appears to be junk mail</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Visit<br><br>spamencoder.com</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth other">
+
+                <a href="http://www.crystalbrawlgame.com" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/crystal-brawl.jpg">
+                    <div class="portfolio-text">
+                        <h5>Crystal Brawl</h5>
+                        <p>Four-player capture-the-flag where each character can alter the terrain</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Visit<br><br>crystalbrawlgame.com</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth web">
+
+                <a href="http://www.shrtb.red" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/shrtbred.png">
+                    <div class="portfolio-text">
+                        <h5>shrtb.red</h5>
+                        <p>A URL shortener good enough to eat</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Visit<br><br>shrtb.red</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth other">
+
+                <a href="https://www.choiceofgames.com/last-monster-master/#utm_medium=web&utm_source=benserviss.com" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/monster-master.png">
+                    <div class="portfolio-text">
+                        <h5>The Last Monster Master</h5>
+                        <p>Prepare your brood for monstrous careers in this text adventure</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Available for iOS, Google Play,<br>Amazon Kindle, Chrome Web Store<br> and Browser</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth web">
+
+                <a href="https://www.twitter.com/botmitzvah" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/bot-mitzvah.jpg">
+                    <div class="portfolio-text">
+                        <h5>@botmitzvah</h5>
+                        <p>A Twitter bot to celebrate the passage into adulthood</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Visit @botmitzvah</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth web">
+
+                <a href="http://www.whentowearit.com" target="_blank" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/when-to-wear-it.png">
+                    <div class="portfolio-text">
+                        <h5>WhenToWearIt</h5>
+                        <p>Keep track of your outfits and who's seen you in them
+                        </p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Visit<br><br>whentowearit.com</h5>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="filter-item-fourth other">
+
+                <a href="files/IAmTryingtoTellYouSomething.zip" class="portfolio-hover">
+                    <img class="img-responsive" alt="Elemental Gallery Image" src="images/gallery-thumbs/trying-to-tell-you-something.png">
+                    <div class="portfolio-text">
+                        <h5>I Am Trying To Tell You Something</h5>
+                        <p>An experiment in branching narrative</p>
+                    </div>
+                    <div class="overlay">
+                        <br><i class="gallery-icon-main "></i>
+                        <h5>Click to Download<br><br>For PC</h5>
+                    </div>
+                </a>
+
+            </div>
+
+        </div> <!-- filterable-list -->
+
+    </div>
 
 
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.10.2.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/jquery.countdown.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+</section><!-- gallery -->
 
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
+<section id="about" class="screen">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center section-header">
+                    <h2>
+                        About
+                    </h2>
+                </div>
+            </div>
+        </div>
 
-    </body>
+        <div class="row about-text">
+            <div class="col-md-12">
+
+                <p class="main-description-text">
+                    I'm a software engineer at <a href="http://www.beenverified.com" target="_blank">BeenVerified</a>, the leading destination for easy and affordable access to public record information.<br><br>
+                    I also write for <a href="https://www.kickstarter.com/projects/14293468/homestuck-adventure-game" target="_blank">Hiveswap</a>, What Pumpkin Studios' upcoming adventure game based on the popular <a href="http://www.mspaintadventures.com/?s=6" target="_blank">Homestuck</a> webcomic, and am a founding member of indie game developer <a href="http://www.studio-mercato.com" target="_blank">Studio Mercato</a>.
+                    <br><br>
+                    I like clean user experiences, narrative-driven games, and using language effectively to convey new ideas.
+                    <br>
+
+                </p>
+
+                <div class="lead about-subtext">
+                    <em><a href="files/Ben_Serviss_Software_Engineer_Resume.pdf">Resume (PDF)</a></em>
+                </div>
+            </div>
+        </div>
+    <br>
+        <div class="cta-wrapper">
+            <a href="#testimonials" id="scroll-to-portfolio" class="btn btn-lg btn-primary cta">
+                <i class="fa centered"></i> See what they're saying
+            </a>
+        </div><br><br>
+    </div>
+</section><!-- about -->
+
+<section id="testimonials" class="screen">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center section-header dark">
+                    <h2>Testimonials</h2>
+                </div>    
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonials-slider" class="carousel slide">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                 
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-xs-3 text-center testimonial-image">
+                                    <img class="img-circle" alt="Avatar" src="images/avatars/coray.jpg">
+                                </div>
+                                <div class="col-xs-9 testimonial-text">
+                                    <p class="subtext">
+                                        "Ben brings a creative eye, a great attitude, and an outstanding work ethic to every project he takes on." 
+                                    </p>
+
+                                    <h4 class="testimonial-author">
+                                        Coray Seifert
+
+                                        <small>
+                                            Product Strategy Manager, Autodesk<br>
+                                            <a href="https://www.linkedin.com/profile/view?id=2925165#recommendations" target="_blank">Supervised Ben at Creo Ludus Entertainment</a>
+                                        </small>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-3 text-center testimonial-image">
+                                    <img class="img-circle" alt="Avatar" src="images/avatars/michael.jpg">
+                                </div>
+                                <div class="col-xs-9 testimonial-text">
+                                    <p class="subtext">
+                                        "Not only was he a great joy to work with, he was also resourceful, dedicated, passionate, and professional about his work." 
+                                    </p>
+
+                                    <h4 class="testimonial-author">
+                                        Michael Yuann
+
+                                        <small>
+                                            Founder, Games Concourse<br>
+                                            <a href="https://www.linkedin.com/profile/view?id=2925165#recommendations" target="_blank">Worked alongside Ben at THQ*ICE</a>
+                                        </small>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-3 text-center testimonial-image">
+                                    <img class="img-circle" alt="Avatar" src="images/avatars/richard.jpg">
+                                </div>
+                                <div class="col-xs-9 testimonial-text">
+                                    <p class="subtext">
+                                        "Ben's creativity is top notch, often times coming up with ideas that hadn't occurred to me in the blink of an eye." 
+                                    </p>
+
+                                    <h4 class="testimonial-author">
+                                        Richard Kim
+
+                                        <small>
+                                            Game Designer, DeNA<br>
+                                            <a href="https://www.linkedin.com/profile/view?id=2925165#recommendations" target="_blank">Reported to Ben at THQ*ICE</a>
+                                        </small>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-3 text-center testimonial-image">
+                                    <img class="img-circle" alt="Avatar" src="images/avatars/matt.jpg">
+                                </div>
+                                <div class="col-xs-9 testimonial-text">
+                                    <p class="subtext">
+                                        "He was an extremely dedicated member of our team who worked long hours to ensure that the game released on time and under considerable pressure... I highly recommend him as an employee, partner or potential superior." 
+                                    </p>
+
+                                    <h4 class="testimonial-author">
+                                        Matthew Karch
+
+                                        <small>
+                                            President, Saber Interactive<br>
+                                            <a href="https://www.linkedin.com/profile/view?id=2925165#recommendations" target="_blank">Supervised Ben at Saber Interactive</a>
+                                        </small>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="left carousel-control" href="#testimonials-slider" data-slide="prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                    <a class="right carousel-control" href="#testimonials-slider" data-slide="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonials-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonials-slider" data-slide-to="1"></li>
+                        <li data-target="#testimonials-slider" data-slide-to="2"></li>
+                        <li data-target="#testimonials-slider" data-slide-to="3"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- testimonials -->
+
+<section id="contact" class="screen">
+   <div class="col-md-12">
+        <div class="text-center section-header light">
+            <h2>Contact Me</h2>
+        </div>    
+    </div>
+
+    <div class="row about-text">
+        <div class="container">
+            <div class="col-md-12">
+
+                <div class="text-center">
+                    <img class="img-circle" title="Ben Serviss" alt="Ben Serviss" src="images/avatars/ben.jpg">
+                </div>
+                <br>
+
+                <div id="socials" >
+                    <a href="http://www.linkedin.com/in/benserviss">
+                        <img src="images/socials/linkedin.png">
+                    </a>
+                    <a href="http://www.github.com/kamoh">
+                        <img src="images/socials/github.png">
+                    </a>
+                    <a href="mailto:ben@benserviss.com">
+                        <img src="images/socials/email.png">
+                    </a>
+                    <a href="http://kamoh.github.io">
+                        <img src="images/socials/rss.png">
+                    </a>
+                    <a href="http://www.twitter.com/benserviss">
+                        <img src="images/socials/twitter.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="cta-wrapper">
+        <a href="#gallery" id="scroll-to-gallery" class="btn btn-lg btn-primary cta">Back to <i class="fa fa-home centered"></i> 
+        </a>
+    </div>
+    <br><br>
+</section> <!-- contact -->  
+
+</div>
+
+    <!--[if lt IE 9]>
+    <script src="javascripts/vendor/respond.js"></script>
+    <![endif]-->
+
+    <script src="javascripts/vendor/jquery.js"></script>
+    <script src="javascripts/bootstrap/bootstrap.min.js"></script>
+    <script src="javascripts/vendor/jquery.easing.min.js"></script>
+    <script src="javascripts/vendor/jquery.isotope.js"></script>
+    <script src="javascripts/vendor/jquery.mb.YTPlayer.js"></script>
+    <script src="javascripts/vendor/responsive-table.js"></script>
+
+    <!-- Custom  JavaScript -->
+    <script src="javascripts/app.js"></script>
+
+</body>
 
 </html>
