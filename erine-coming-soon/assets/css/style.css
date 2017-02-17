@@ -25,6 +25,7 @@ h1 {
 .testimonial {
     font-size: 1.15em;
     font-style: italic;
+    padding-top: 5%;
 }
 
 .testimonial-attribution {
