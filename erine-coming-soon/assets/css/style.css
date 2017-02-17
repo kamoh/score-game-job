@@ -1,5 +1,10 @@
+#book-cover {
+    border: 3px solid darkgray;
+}
+
 #author-container {
     margin-left: 15%;
+    padding-top:3%;
 }
 
 #author-pic img {
@@ -9,6 +14,7 @@
 
 #bio-text {
     text-align: left;
+    margin-left: 5%;
 }
 
 h1 {
@@ -17,7 +23,7 @@ h1 {
 }
 
 .testimonial {
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-style: italic;
 }
 
@@ -28,7 +34,7 @@ h1 {
 
 body {
     /*background: #000;*/
-    background-image: url('../img/backgrounds/green.jpg');
+    background-image: url('../img/backgrounds/white-orange.jpg');
     /*background-image: url("paper.gif");*/
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -44,6 +50,23 @@ body {
 
 #genres p {
   margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  #author-container {
+    margin-left: 0px;
+  }
+
+  /*#author-pic {*/
+  .col-sm-3 {
+    width: 40%;
+    padding-top: 0px;
+    margin-left:31%;
+  }
+
+  #bio-text {
+    padding-top: 5%;
+  }
 }
 
 strong { font-weight: 700; }
