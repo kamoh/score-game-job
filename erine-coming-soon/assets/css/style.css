@@ -1,9 +1,11 @@
-#buy-button {
-    width:40%;
+.buy-button {
+    /*width:40%;*/
+    font-size: 1.5em;
 }
 
 #book-cover {
-    border: 3px solid darkgray;
+    /*border: 3px solid darkgray;*/
+    /*width: 100%;*/
 }
 
 #author-container {
